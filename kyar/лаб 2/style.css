@@ -1,0 +1,21 @@
+h1, .copyr, #banner {color: 
+    rgba(180, 27, 6, 0.689);}
+h2, .copyr, #banner {color: 
+    rgba(180, 27, 6, 0.689);}
+h3, .copyr, #banner {color: 
+    rgba(180, 27, 6, 0.689);}
+.a{
+    color:red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.b{
+    color:yellow;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.c{
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+}

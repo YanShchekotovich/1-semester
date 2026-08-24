@@ -1,0 +1,9 @@
+textPath {
+    fill: red;
+    font-size: 19px;
+}
+
+polyline {
+    fill: none;
+    stroke: purple;
+}

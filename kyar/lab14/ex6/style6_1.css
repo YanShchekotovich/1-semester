@@ -1,0 +1,7 @@
+h1 + p {
+  background-color: yellow;
+}
+
+h2 ~ p {
+  color: blue;
+}/*# sourceMappingURL=style6_1.css.map */

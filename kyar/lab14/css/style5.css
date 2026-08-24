@@ -1,0 +1,7 @@
+polyline {
+    fill: none;
+    stroke: purple;
+}
+polygon:hover {
+    stroke: blue;
+}

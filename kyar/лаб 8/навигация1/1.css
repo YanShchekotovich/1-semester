@@ -1,0 +1,35 @@
+body{
+    display:flex;
+}
+section { 
+    width: 30%; 
+    background-color: greenyellow; 
+    padding: 30px; 
+    
+}
+aside {
+    padding: 20px;
+}
+ul.nav {
+    list-style-type: none;
+    }
+    ul.nav a {
+        zoom: 150%;
+    display: block;
+    text-decoration: none;
+    }
+    ul.nav a.silk{
+        color: red;
+    }
+    ul.nav a.silk2:link {
+        color: black;
+    }
+    ul.nav a.silk2:visited{
+        color: #8B0000;
+    }
+    ul.nav a.silk3:hover{
+        color: green;
+    }
+    ul.nav a.silk4:active{
+        color: rgb(184, 134, 11);
+    }
