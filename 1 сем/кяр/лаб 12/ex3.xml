@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="ex31.xsd">
+    <content>
+        <about>XML</about>
+        <text>XML &gt; (eXtensible Markup Language) язык разметки, созданный для хранения, транспортировки и обмена данными между различными системами.</text>
+    </content>
+
+    <content>
+        <about>DTD</about>
+        <text>Document Type Definition (DTD) это язык описания структуры XML-документа, который используется для проверки грамматики XML-документа и его соответствия определенному</text>
+    </content>
+</body>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+   <title>лаб 9.1</title>
+
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <form name="graphs" class="m">
+            <label for="squared" >
+                <input id="squared" value="squared" name="graph" type="radio" checked>y = x^2
+            </label>
+            <label for="cubed">
+                <input id="cubed" value="cubed" name="graph" type="radio">y = x^3
+            </label>
+            <label for="sin">
+                <input id="sin" value="sin" name="graph" type="radio">y = sin(x)
+            </label>
+            <label for="cos">
+                <input id="cos" value="cos" name="graph" type="radio">y = cos(x)
+            </label>
+            <label for="sqrt">
+                <input id="sqrt" value="sqrt" name="graph" type="radio"> y = sqrt(x)
+            </label>
+           
+          
+
+
+
+            <label for="red">
+                <input type="radio" name="color" id="red" value="red"><span style="color: red">Красный</span>
+            </label>
+            <label for="orange">
+                <input type="radio" name="color" id="orange" value="orange"><span style="color: orange">Оранжевый</span>
+            </label>
+            <label for="yellow">
+                <input type="radio" name="color" id="yellow" value="yellow"><span
+                    style="color: rgb(241, 210, 36)">Жёлтый</span>
+            </label>
+            <label for="green">
+                <input type="radio" name="color" id="green" value="green"><span style="color: green">Зелёный</span>
+            </label>
+            <label for="skyblue">
+                <input type="radio" name="color" id="skyblue" value="skyblue"><span
+                    style="color: skyblue">Голубой</span>
+            </label>
+            <label for="blue">
+                <input type="radio" name="color" id="blue" value="blue"><span style="color: blue">Синий</span>
+            </label>
+            <label for="purple">
+                <input type="radio" name="color" id="purple" value="purple"><span
+                    style="color: purple">Фиолетовый</span>
+            </label>
+
+            <input type="button" id="drawing" value="Нарисовать" class="button">
+        </form>
+        <canvas width="800px" height="700px"></canvas>
+    </main>
+    <div class="m1">
+
+        <script src="jQuery.js"></script>
+        <script src="script.js"></script>
+</body>
+
+</html>

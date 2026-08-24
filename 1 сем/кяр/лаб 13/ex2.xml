@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ex2.xsl"?>
+<!DOCTYPE body [
+    <!ELEMENT body (student+)>
+    <!ELEMENT student (num, name, value)>
+    <!ELEMENT num (#PCDATA)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT value (#PCDATA)>
+]>
+<body>
+    <student>
+        <num>1</num>
+        <name>Мельниченко Федор</name>
+        <value>7</value>
+    </student>
+
+    <student>
+        <num>2</num>
+        <name>Щекотович Ян</name>
+        <value>9</value>
+    </student>
+
+    <student>
+        <num>3</num>
+        <name>Прусский Никита</name>
+        <value>7</value>
+    </student>
+
+    <student>
+        <num>4</num>
+        <name>Солопов Кирилл</name>
+        <value>4</value>
+    </student>
+
+    <student>
+        <num>5</num>
+        <name>Кирщин Дмитрий</name>
+        <value>3</value>
+    </student>
+
+    <student>
+        <num>6</num>
+        <name>Юхно Слава</name>
+        <value>3</value>
+    </student>
+</body>

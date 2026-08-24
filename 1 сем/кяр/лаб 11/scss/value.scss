@@ -1,0 +1,37 @@
+$bgcolor: #F3EAE8;
+$h3-size: 30px;
+$p-size: 11px;
+$header-color: black;
+$navbg: red;
+$acolor: black;
+
+@mixin form ($margin, $height) {
+    margin-top: $margin;
+    font-size: 1.2em;
+    height: $height;
+}
+
+%label {
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-right: 7px;
+    width: 9em;
+}
+
+@function font-size() {
+    $p-size: $h3-size - 7px;
+    @return $p-size;
+}
+
+@function backcolor() {
+    @if(($navbg== #EFAD68) and ($acolor == black))
+    {
+        $bgcolor: #F3EAE8;
+        @return $bgcolor;
+    }
+    @else
+    {
+        $bgcolor: #9AACAE;
+        @return $bgcolor;
+    }
+}

@@ -1,0 +1,7 @@
+﻿  lab12.cpp
+C:\Users\sheko\OneDrive\Desktop\lab12\lab12.cpp(97,14): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\sheko\OneDrive\Desktop\lab12\lab12.cpp(92,17): warning C4101: z: неиспользованная локальная переменная
+C:\Users\sheko\OneDrive\Desktop\lab12\lab12.cpp(92,23): warning C4101: v: неиспользованная локальная переменная
+C:\Users\sheko\OneDrive\Desktop\lab12\lab12.cpp(92,20): warning C4101: c: неиспользованная локальная переменная
+C:\Users\sheko\OneDrive\Desktop\lab12\lab12.cpp(120,15): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+  lab12.vcxproj -> C:\Users\sheko\OneDrive\Desktop\lab12\x64\Debug\lab12.exe

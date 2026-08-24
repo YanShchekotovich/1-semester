@@ -1,0 +1,19 @@
+img {
+    width: 100px;
+    height: 100px; 
+}
+.row {
+    border: 1px solid black;
+}
+
+li {
+    display: inline-block;
+    border: 1px solid black;
+    list-style-type: none;
+    background-color: aquamarine;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}

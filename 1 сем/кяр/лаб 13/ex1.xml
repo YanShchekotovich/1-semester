@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ex1.xsl"?>
+<!DOCTYPE body [
+    <!ELEMENT body (content+)>
+    <!ELEMENT content (num, about, text)>
+    <!ELEMENT num (#PCDATA)>
+    <!ELEMENT about (#PCDATA)>
+    <!ELEMENT text (#PCDATA)>
+]>
+<body>
+    <content>
+        <num>3</num>
+        <about>Заголовок</about>
+        <text>Текст</text>
+    </content>
+
+    <content>
+        <num>2</num>
+        <about>Заголовок</about>
+        <text>Текст</text>
+    </content>
+</body>

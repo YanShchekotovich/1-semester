@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>js</title>
+<meta charset="UTF-8">
+    <script type="text/javascript">
+        function func1(){
+        alert("Вас приветствует учебный центр");
+        let name = prompt("Введите ваше имя:");
+        alert("Добро пожаловать на наши курсы,"+ name);
+let choice =  confirm("Хотите стать Web-дизайнером?") 
+ if(choice)
+            alert (name + "Учите стили CSS и JavaScript");
+else            
+    alert ("Упускаете время!");
+        }
+        function func2(){
+            document.write(10+5, "<br>");
+document.write("10"+"5", "<br>");
+document.write("10"+5, "<br>");
+document.write(5+"10", "<br>");
+alert("Результатом сложения строки и числа всегда будет строка");
+        }
+        function func3(){
+            let x = 6, y = 6698169;
+let num1 = (35*y-25*x)/5+232;
+let num2 = (8*y/x+5*x/y-43)*6;
+document.write(num2 % num1, "<br>");
+alert(num2 % num1);
+document.write("Первое выражение равно: " + num1 + "<br>" + "Второе выражение равно: " + num2 + "<br>");
+alert(num1);
+alert(num2);
+        }
+        function func4(){
+        let num = prompt("Введите число");
+if (num == 15 || num >= 20 && num < 40 && num % 5 == 0)
+	alert("Правильное значение");
+else
+	alert("Неправильное значение");
+        }
+        function func5(){
+            num1 = prompt("Введите первое число");
+num2 = prompt("Введите второе число");
+
+if (num1 > num2)
+	alert("Первое число больше второго");
+else if (num2 > num1)
+	alert("Второе число больше первого");
+else
+	alert("Числа равны");
+        }
+        function func6(){
+            let now = new Date();
+let day = now.getDay();
+switch (day){
+	case 1: 
+		alert("Сегодня понедельник");
+		break;
+	case 2: 
+		alert("Сегодня вторник");
+		break;
+	case 3: 
+		alert("Сегодня среда");
+		break;
+	case 4: 
+		alert("Сегодня четверг");
+		break;
+	case 5: 
+		alert("Сегодня пятница");
+		break;
+	case 6: 
+		alert("Сегодня суббота");
+		break;
+	case 0: 
+		alert("Сегодня воскресенье");
+		break;	}
+        }
+        function func7(){
+            var x = 0b1000;
+           var y = 0o12;
+           var z = 0x1C;
+           alert (x);
+           alert (y);
+           alert (z);
+        }
+</script>
+</head>
+<body>
+    <input type="button"value="Задание 1"onclick="func1()"> 
+    <input type="button"value="Задание 2"onclick="func2()"> 
+    <input type="button"value="Задание 3"onclick="func3()"> 
+    <input type="button"value="Задание 4"onclick="func4()"> 
+    <input type="button"value="Задание 5"onclick="func5()"> 
+    <input type="button"value="Задание 6"onclick="func6()"> 
+    <input type="button"value="Задание 7"onclick="func7()">     
+    </body>
+</html>

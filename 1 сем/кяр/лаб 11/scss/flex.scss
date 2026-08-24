@@ -1,0 +1,190 @@
+.container{
+    height: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: backcolor();
+    border-bottom: 1px solid #877771;
+
+    .logo {
+        flex: 1 0 20%;
+        margin: 10px 15px 10px 15px;
+
+        img {
+            height: 50px;
+            width: 100px;
+        }
+    }
+    
+    .nav {     // навигационное меню
+        flex: 1 0 60%;
+        margin: 10px 15px 10px 15px;
+
+        ul {
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+
+            li {
+                display: inline-block;
+                background-color: $navbg;
+                list-style-type: none;
+                border: 1px solid #ECE359;
+                padding: 10px 20px 10px 20px;
+            }
+
+            a {
+                text-decoration: none;
+                color: $acolor;
+            }
+        }
+    }
+}
+
+.main_first { 
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: backcolor();
+    border-bottom: 1px solid #716763;
+
+    .about {
+        display: flex;
+        flex: 1 0 70%;
+        margin: 10px 15px 10px 15px;
+        flex-flow: row wrap;
+
+        .main_first_title { 
+            flex: 1 0 71%;
+            text-align: center;
+
+            h3 {
+                font-size: $h3-size;
+            }
+        }
+        
+        .main_text {
+            flex: 1 0 33%;
+            border-right: 1px solid #877771;
+            
+            p {
+                text-indent: 20px;
+                margin: 0px 7px;
+                font-size: font-size();
+            }
+        }
+    }
+}
+
+.form {
+    @include form (15px, 220px);
+
+    label {
+        @extend %label;
+        vertical-align: top;
+        text-align: left;
+        text-indent: 5px;
+    }
+}
+
+
+.main_second {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    background-color: backcolor();
+    border-bottom: 1px solid #877771;
+
+    .gallery {
+        flex: 1 0 71%;
+        display: flex;
+        flex-flow: row wrap;
+        
+        .main_second_title {
+            flex: 1 0 100%;
+            display: flex;
+            justify-content: center;
+            margin: 15px 0px 15px 0px;
+        }
+
+        .gallery-img {
+            flex: 1 0 auto;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+            margin: 15px;
+    
+            img {
+                width: 120px;
+                height: 90px;
+                border:1px solid #877771;
+            }
+        }
+    }
+
+    .aside {
+        flex: 1 0 29%;
+        display: flex;
+        flex-flow: column;
+        
+        .aside_title {
+            display: flex;
+            justify-content: center;
+            margin: 15px 0px 15px 0px;
+        }
+
+        .columns {
+            display: flex;
+            flex-flow: row wrap;
+            max-width: 500px;
+
+            .columns__first-row {
+                display: flex;
+                margin: 10px 15px 10px 15px;
+
+                img {
+                    border: 1px solid #877771;
+                    width: 50px;
+                    height: 65px;
+                }
+                
+                p {
+                    margin-left: 7px;
+                }
+            }
+              
+
+            .columns__second-row {
+                display: flex;
+                margin: 10px 15px 10px 15px;
+
+                img {
+                    border: 1px solid #877771;
+                    width: 50px;
+                    height: 65px;
+                }
+
+                p {
+                    margin-left: 7px;
+                }
+            }
+        }
+    }
+}
+
+
+.footer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: backcolor();
+
+    .info {
+        margin: 15px 0px;
+    }
+}

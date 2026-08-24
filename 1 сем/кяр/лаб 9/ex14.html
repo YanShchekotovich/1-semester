@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кр. вопросы 14</title>
+    <style>
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 150px);
+            grid-template-rows: repeat(3, 150px);
+        }
+
+        .item {
+            border: 1px solid black;
+        }
+
+        .item_4 {
+            background-color: red;
+            grid-column: 1/4;
+        }
+
+        .item_1 {
+            grid-column: 1/4;
+        }
+
+        .item_1 p {
+            color: blue;
+            font-size: 40px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="item item_1"><p>Абзац синего цвета</p></div>
+        <div class="item item_4"></div>
+        <div class="item item_5"></div>
+        <div class="item item_6"></div>
+        <div class="item item_7"></div>
+    </div>
+</body>
+</html>

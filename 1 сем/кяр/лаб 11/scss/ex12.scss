@@ -1,0 +1,12 @@
+@mixin p-color ($p-size) {
+    font-size: $p-size;
+    @if ($p-size == 20px) {
+        color: red;
+    } @else {
+        color: black;
+    }
+}
+
+p {
+    @include p-color(21px);
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Лаба 7</title>
+</head>
+
+<body>
+
+	<form name="main" style="border: 1px solid black;">
+		<textarea name="faculty" placeholder="Факультет информационных технологий"></textarea>
+        <br><br>
+		<input type="text" id="surname" placeholder="Фамилия"> 
+		<br>
+		<input type="text" placeholder="Имя">
+        <br><br>
+		<span>Специальность
+		<select id="spec">
+			<option>ИСиТ</option>
+            <option>ПОИТ</option>
+            <option>ПОИБМС</option>
+			<option>ДЭВИ</option>
+		</select>
+		<br>
+
+			<p>Курс</p>
+			<input type="radio" name="course" value="1">1
+			<input type="radio" name="course" value="2">2
+			<input type="radio" name="course" value="3">3
+			<input type="radio" name="course" value="4">4
+
+			<p>Предметы</p>
+			<input name="subject" type="checkbox"  value="ОИТ">ОИТ
+			<input name="subject"  type="checkbox" value="ОАП">ОАП
+			<input name="subject"  type="checkbox" value="История">История
+			<input name="subject"  type="checkbox" value="Физика">Физика
+			<input name="subject"  type="checkbox" value="Математика">Математика
+            <br><br>
+
+			<input type="submit" value="submit">
+			<input type="reset" value="reset">
+			<br><br>
+
+			<input type="button" value="Напечатать" onclick="print()">
+	</form>
+
+<script type="text/javascript" src="./js.js"></script>
+
+</body>
+</html>
