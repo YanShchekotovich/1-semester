@@ -1,0 +1,41 @@
+img {
+    width: 200px;
+    height: 200px;
+}
+
+figure {
+    display: inline;
+}
+
+.first:hover {
+    transform: scale(0.5);
+}
+
+.two:hover {
+    transform: rotate(45deg);
+}
+
+.three:hover {
+    transform: translate(50px);
+}
+
+.four:hover {
+    transform: skew(-20deg);
+}
+
+h1 {
+    color: rgb(115, 203, 188);
+    text-align: center;
+    animation: h1 4s linear infinite;
+}
+@keyframes h1 {
+    0% {
+    opacity: 0;
+    }
+    50% {
+    opacity: 0.8;
+    }
+    100% {
+    opacity: 0;
+    }
+}

@@ -1,0 +1,53 @@
+div {
+    perspective-origin: center top;
+}
+
+img{
+    width:200px;
+    height:250px;
+    margin-left:150px;
+    margin-right:150px;
+}
+
+.first{
+    transform: perspective(600px) rotateX(45deg);
+    margin-left:50px;
+    margin-right:50px;
+}
+
+.two{
+    transform: perspective(600px) rotateY(45deg);
+    margin-left:50px;
+    margin-right:50px;
+}
+
+.three{
+    transform: perspective(600px) rotateX(45deg);
+    margin-left:50px;
+    margin-right:50px;
+}
+
+.four{
+   transform: perspective(600px) rotateY(-45deg);
+   margin-left:50px;
+   margin-right:50px;
+}
+
+
+h1 { 
+    text-align: center; 
+    animation: h1 2s linear infinite; 
+    color:  rgb(115, 203, 188);
+} 
+ 
+@keyframes h1 { 
+0% { 
+    opacity: 0; 
+} 
+50% { 
+    opacity: 0.8; 
+} 
+100% { 
+    opacity: 0; 
+} 
+}

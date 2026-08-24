@@ -1,0 +1,48 @@
+p {
+  color: red;
+}
+
+h1, h2, h3, h4 {
+  color: #800080;
+  font-family: "Monotype Corsiva";
+}
+
+.li1 {
+  font-family: "Times New Roman";
+  font-size: 18pt;
+  color: red;
+}
+
+.li2 {
+  font-family: "Times New Roman";
+  font-size: 20pt;
+  color: yellow;
+}
+
+.li3 {
+  font-family: "Times New Roman";
+  font-size: 22pt;
+  color: green;
+}
+
+div {
+  margin-top: 20px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid black;
+}
+
+p {
+  color: blue;
+  font-family: Arial;
+  font-size: 16pt;
+}
+
+table td {
+  color: brown;
+}/*# sourceMappingURL=style6.css.map */

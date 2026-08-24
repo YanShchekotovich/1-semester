@@ -1,0 +1,15 @@
+.top{
+    text-align: center;
+}
+figure{
+    padding: 10px;
+    display: block;
+    width: 150px;
+    float: left;
+    margin: 0 10px 10px 0;
+    text-align: center;
+}
+img {
+    width: 100px;
+    height: 100px;
+}

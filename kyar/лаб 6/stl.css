@@ -1,0 +1,35 @@
+.spisok ul {
+    list-style: none;
+    background-image: url(./мяч.jpg);
+    background-repeat: no-repeat;
+    padding-left: 10px;
+    margin-bottom: 25px;
+    background-size: 1em;
+}
+ol li {
+    font-size: 20px;
+}
+body {
+    background-image: url(fit.png);
+    background-attachment: fixed;
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+.div1 {
+    float: right;
+}
+.png1 {
+    float: left;
+    width: 30em;
+    height: 22em; 
+    margin-right: 20px
+}
+.png2 {
+    float: right;
+    width: 30em;
+    height: 22em;
+    margin-right: 20px
+}
+.div2 {
+    float: left;
+}
