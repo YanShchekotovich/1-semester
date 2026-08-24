@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Задание 4,5</title>
+    </head>
+<body>
+    <main>
+        <form name="graphs">
+
+            <label for="squared_x">
+                <input id="squared_x" value="squared_x" name="graph" type="radio" checked="">y = x^2
+            </label>
+
+            <label for="cubed_x">
+                <input id="cubed_x" value="cubed_x" name="graph" type="radio">y = x^3
+            </label>
+
+            <label for="sin_x">
+                <input id="sin_x" value="sin_x" name="graph" type="radio">y = sin(x)
+            </label>
+
+            <label for="cos_x">
+                <input id="cos_x" value="cos_x" name="graph" type="radio">y = cos(x)
+            </label>
+
+
+
+            <label for="red">
+                <input type="radio" name="color" id="red" value="red"><span style="color: red">Красный</span>
+            </label>
+
+            <label for="orange">
+                <input type="radio" name="color" id="orange" value="orange"><span style="color: orange">Оранжевый</span>
+            </label>
+
+            <label for="green">
+                <input type="radio" name="color" id="green" value="green"><span style="color: green">Зелёный</span>
+            </label>
+
+            <label for="blue">
+                <input type="radio" name="color" id="blue" value="blue"><span style="color: blue">Синий</span>
+            </label>
+
+            <input type="button" id="draw_button" value="Нарисовать">
+        </form>
+        <canvas width="1500px" height="700px"></canvas>
+    </main>
+    <script src="4,5.js"></script>
+
+
+</body>
+</html>
